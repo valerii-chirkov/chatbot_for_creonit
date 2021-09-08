@@ -60,7 +60,7 @@ python3 bot.py
 <h2 align="center"> 
     ⇝ Пример билета ⇜
 </h2>
-<a href="https://ibb.co/J2WY10J"><img src="https://i.ibb.co/VD0F1r4/ticket-example.png" alt="ticket-example" border="0"></a>
+<a href="https://ibb.co/J2WY10J"><img src="https://i.ibb.co/VD0F1r4/ticket-example.png" alt="ticket-example" border="0" align="center"></a>
 
 <h2 align="center"> 
     ⇝ Возможный сценарий общения ⇜
@@ -90,4 +90,4 @@ python3 bot.py
 <h4 align="center"> 
     Бот: "Спасибо за регистрацию, валера! Мы отправили на email@email.com билет, распечатайте его"
 </h4>
-<a href="https://ibb.co/J2WY10J"><img src="https://i.ibb.co/VD0F1r4/ticket-example.png" alt="ticket-example" border="0"></a>
+<a href="https://ibb.co/J2WY10J"><img src="https://i.ibb.co/VD0F1r4/ticket-example.png" alt="ticket-example" border="0" align="center"></a>

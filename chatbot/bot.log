@@ -1,0 +1,284 @@
+23-08-2021 22:22,398 DEBUG User got {'name': 'Дата проведения', 'tokens': ('когда', 'сколько', 'дата', 'дату', '1'), 'scenario': None, 'answer': 'Конференция проводится 15 апреля, регистрация начнется в 10 утра.'}
+23-08-2021 22:22,406 DEBUG User got {'name': 'Место проведения', 'tokens': ('где', 'место', 'локация', 'адрес', 'метро', '2'), 'scenario': None, 'answer': 'Конференция пройдет в павильоне 18Г в Экспоцентре.'}
+23-08-2021 22:22,406 DEBUG User got {'name': 'Регистрация', 'tokens': ('регист', 'добав', '3'), 'scenario': 'registration', 'answer': None}
+23-08-2021 22:22,406 DEBUG User got {'name': 'Благодарность', 'tokens': ('спс', 'спасибо', '4'), 'scenario': None, 'answer': 'Пожалуйста!'}
+23-08-2021 22:22,680 INFO Мы пока не умеем обрабатывать события такого типа. VkBotEventType.MESSAGE_REPLY
+24-08-2021 01:03,183 INFO Мы пока не умеем обрабатывать события такого типа. VkBotEventType.MESSAGE_TYPING_STATE
+24-08-2021 01:03,821 ERROR Ошибка в обработке события. <class 'AttributeError'>
+Traceback (most recent call last):
+  File "/Users/valeriichirkov/PycharmProjects/python_base/chatbot/bot.py", line 62, in run
+    self.on_event(event)
+  File "<string>", line 2, in on_event
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pony/orm/core.py", line 533, in new_func
+    result = func(*args, **kwargs)
+  File "/Users/valeriichirkov/PycharmProjects/python_base/chatbot/bot.py", line 79, in on_event
+    state = UserState.get(user_id=user_id)
+AttributeError: type object 'UserState' has no attribute 'get'
+24-08-2021 01:05,025 INFO Мы пока не умеем обрабатывать события такого типа. VkBotEventType.MESSAGE_TYPING_STATE
+24-08-2021 01:05,688 ERROR Ошибка в обработке события. <class 'AttributeError'>
+Traceback (most recent call last):
+  File "/Users/valeriichirkov/PycharmProjects/python_base/chatbot/bot.py", line 62, in run
+    self.on_event(event)
+  File "<string>", line 2, in on_event
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pony/orm/core.py", line 533, in new_func
+    result = func(*args, **kwargs)
+  File "/Users/valeriichirkov/PycharmProjects/python_base/chatbot/bot.py", line 79, in on_event
+    state = UserState.get(user_id=user_id)
+AttributeError: type object 'UserState' has no attribute 'get'
+24-08-2021 01:08,385 INFO Мы пока не умеем обрабатывать события такого типа. VkBotEventType.MESSAGE_TYPING_STATE
+24-08-2021 01:08,176 ERROR Ошибка в обработке события. <class 'AttributeError'>
+Traceback (most recent call last):
+  File "/Users/valeriichirkov/PycharmProjects/python_base/chatbot/bot.py", line 62, in run
+    self.on_event(event)
+  File "<string>", line 2, in on_event
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pony/orm/core.py", line 533, in new_func
+    result = func(*args, **kwargs)
+  File "/Users/valeriichirkov/PycharmProjects/python_base/chatbot/bot.py", line 79, in on_event
+    state = UserState.get(user_id=str(user_id))
+AttributeError: type object 'UserState' has no attribute 'get'
+24-08-2021 03:16,442 INFO Мы пока не умеем обрабатывать события такого типа. VkBotEventType.MESSAGE_TYPING_STATE
+24-08-2021 03:16,403 DEBUG User got {'name': 'Дата проведения', 'tokens': ('когда', 'сколько', 'дата', 'дату', '1'), 'scenario': None, 'answer': 'Конференция проводится 15 апреля, регистрация начнется в 10 утра.'}
+24-08-2021 03:16,403 DEBUG User got {'name': 'Место проведения', 'tokens': ('где', 'место', 'локация', 'адрес', 'метро', '2'), 'scenario': None, 'answer': 'Конференция пройдет в павильоне 18Г в Экспоцентре.'}
+24-08-2021 03:16,404 DEBUG User got {'name': 'Регистрация', 'tokens': ('регист', 'добав', '3'), 'scenario': 'registration', 'answer': None}
+24-08-2021 03:16,404 DEBUG User got {'name': 'Благодарность', 'tokens': ('спс', 'спасибо', '4'), 'scenario': None, 'answer': 'Пожалуйста!'}
+24-08-2021 03:16,602 INFO Мы пока не умеем обрабатывать события такого типа. VkBotEventType.MESSAGE_REPLY
+24-08-2021 03:16,539 DEBUG User got {'name': 'Дата проведения', 'tokens': ('когда', 'сколько', 'дата', 'дату', '1'), 'scenario': None, 'answer': 'Конференция проводится 15 апреля, регистрация начнется в 10 утра.'}
+24-08-2021 03:16,787 INFO Мы пока не умеем обрабатывать события такого типа. VkBotEventType.MESSAGE_REPLY
+24-08-2021 03:16,053 INFO Мы пока не умеем обрабатывать события такого типа. VkBotEventType.MESSAGE_TYPING_STATE
+24-08-2021 03:16,683 DEBUG User got {'name': 'Дата проведения', 'tokens': ('когда', 'сколько', 'дата', 'дату', '1'), 'scenario': None, 'answer': 'Конференция проводится 15 апреля, регистрация начнется в 10 утра.'}
+24-08-2021 03:16,683 DEBUG User got {'name': 'Место проведения', 'tokens': ('где', 'место', 'локация', 'адрес', 'метро', '2'), 'scenario': None, 'answer': 'Конференция пройдет в павильоне 18Г в Экспоцентре.'}
+24-08-2021 03:16,684 DEBUG User got {'name': 'Регистрация', 'tokens': ('регист', 'добав', '3'), 'scenario': 'registration', 'answer': None}
+24-08-2021 03:16,684 DEBUG User got {'name': 'Благодарность', 'tokens': ('спс', 'спасибо', '4'), 'scenario': None, 'answer': 'Пожалуйста!'}
+24-08-2021 03:16,882 INFO Мы пока не умеем обрабатывать события такого типа. VkBotEventType.MESSAGE_REPLY
+24-08-2021 03:16,291 INFO Мы пока не умеем обрабатывать события такого типа. VkBotEventType.MESSAGE_TYPING_STATE
+24-08-2021 03:16,654 DEBUG User got {'name': 'Дата проведения', 'tokens': ('когда', 'сколько', 'дата', 'дату', '1'), 'scenario': None, 'answer': 'Конференция проводится 15 апреля, регистрация начнется в 10 утра.'}
+24-08-2021 03:16,656 DEBUG User got {'name': 'Место проведения', 'tokens': ('где', 'место', 'локация', 'адрес', 'метро', '2'), 'scenario': None, 'answer': 'Конференция пройдет в павильоне 18Г в Экспоцентре.'}
+24-08-2021 03:16,656 DEBUG User got {'name': 'Регистрация', 'tokens': ('регист', 'добав', '3'), 'scenario': 'registration', 'answer': None}
+24-08-2021 03:16,656 DEBUG User got {'name': 'Благодарность', 'tokens': ('спс', 'спасибо', '4'), 'scenario': None, 'answer': 'Пожалуйста!'}
+24-08-2021 03:16,866 INFO Мы пока не умеем обрабатывать события такого типа. VkBotEventType.MESSAGE_REPLY
+24-08-2021 03:17,392 INFO Мы пока не умеем обрабатывать события такого типа. VkBotEventType.MESSAGE_TYPING_STATE
+24-08-2021 03:17,066 DEBUG User got {'name': 'Дата проведения', 'tokens': ('когда', 'сколько', 'дата', 'дату', '1'), 'scenario': None, 'answer': 'Конференция проводится 15 апреля, регистрация начнется в 10 утра.'}
+24-08-2021 03:17,066 DEBUG User got {'name': 'Место проведения', 'tokens': ('где', 'место', 'локация', 'адрес', 'метро', '2'), 'scenario': None, 'answer': 'Конференция пройдет в павильоне 18Г в Экспоцентре.'}
+24-08-2021 03:17,337 INFO Мы пока не умеем обрабатывать события такого типа. VkBotEventType.MESSAGE_REPLY
+24-08-2021 03:17,449 INFO Мы пока не умеем обрабатывать события такого типа. VkBotEventType.MESSAGE_TYPING_STATE
+24-08-2021 03:17,054 DEBUG User got {'name': 'Дата проведения', 'tokens': ('когда', 'сколько', 'дата', 'дату', '1'), 'scenario': None, 'answer': 'Конференция проводится 15 апреля, регистрация начнется в 10 утра.'}
+24-08-2021 03:17,055 DEBUG User got {'name': 'Место проведения', 'tokens': ('где', 'место', 'локация', 'адрес', 'метро', '2'), 'scenario': None, 'answer': 'Конференция пройдет в павильоне 18Г в Экспоцентре.'}
+24-08-2021 03:17,055 DEBUG User got {'name': 'Регистрация', 'tokens': ('регист', 'добав', '3'), 'scenario': 'registration', 'answer': None}
+24-08-2021 03:17,251 INFO Мы пока не умеем обрабатывать события такого типа. VkBotEventType.MESSAGE_REPLY
+24-08-2021 03:17,410 INFO Мы пока не умеем обрабатывать события такого типа. VkBotEventType.MESSAGE_REPLY
+24-08-2021 03:17,282 INFO Мы пока не умеем обрабатывать события такого типа. VkBotEventType.MESSAGE_TYPING_STATE
+24-08-2021 03:17,322 INFO Мы пока не умеем обрабатывать события такого типа. VkBotEventType.MESSAGE_TYPING_STATE
+24-08-2021 03:17,501 INFO Зарегистрирован Валерий fsdfsd@sdfsdf.ru
+24-08-2021 03:17,743 INFO Мы пока не умеем обрабатывать события такого типа. VkBotEventType.MESSAGE_REPLY
+24-08-2021 03:19,823 INFO Мы пока не умеем обрабатывать события такого типа. VkBotEventType.MESSAGE_TYPING_STATE
+24-08-2021 03:19,646 ERROR Ошибка в обработке события. <class 'pony.orm.dbapiprovider.ProgrammingError'>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pony/orm/dbapiprovider.py", line 52, in wrap_dbapi_exceptions
+    return func(provider, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pony/orm/dbproviders/postgres.py", line 261, in execute
+    else: cursor.execute(sql, arguments)
+psycopg2.errors.UndefinedTable: relation "userstate" does not exist
+LINE 2: FROM "userstate"
+             ^
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/valeriichirkov/PycharmProjects/python_base/chatbot/bot.py", line 56, in run
+    self.on_event(event)
+  File "<string>", line 2, in on_event
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pony/orm/core.py", line 533, in new_func
+    result = func(*args, **kwargs)
+  File "/Users/valeriichirkov/PycharmProjects/python_base/chatbot/bot.py", line 73, in on_event
+    state = UserState.get(user_id=str(user_id))
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pony/orm/core.py", line 4014, in get
+    try: return entity._find_one_(kwargs)  # can throw MultipleObjectsFoundError
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pony/orm/core.py", line 4121, in _find_one_
+    if obj is None: obj = entity._find_in_db_(avdict, unique, for_update, nowait, skip_locked)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pony/orm/core.py", line 4180, in _find_in_db_
+    cursor = database._exec_sql(sql, arguments)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pony/orm/core.py", line 954, in _exec_sql
+    connection = cache.reconnect(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pony/orm/core.py", line 1789, in reconnect
+    if not provider.should_reconnect(exc): reraise(*sys.exc_info())
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pony/utils/utils.py", line 95, in reraise
+    try: raise exc.with_traceback(tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pony/orm/core.py", line 952, in _exec_sql
+    try: new_id = provider.execute(cursor, sql, arguments, returning_id)
+  File "<string>", line 2, in execute
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pony/orm/dbapiprovider.py", line 64, in wrap_dbapi_exceptions
+    raise ProgrammingError(e)
+pony.orm.dbapiprovider.ProgrammingError: relation "userstate" does not exist
+LINE 2: FROM "userstate"
+             ^
+
+24-08-2021 03:19,733 INFO Мы пока не умеем обрабатывать события такого типа. VkBotEventType.MESSAGE_TYPING_STATE
+24-08-2021 03:19,394 DEBUG User got {'name': 'Дата проведения', 'tokens': ('когда', 'сколько', 'дата', 'дату', '1'), 'scenario': None, 'answer': 'Конференция проводится 15 апреля, регистрация начнется в 10 утра.'}
+24-08-2021 03:19,394 DEBUG User got {'name': 'Место проведения', 'tokens': ('где', 'место', 'локация', 'адрес', 'метро', '2'), 'scenario': None, 'answer': 'Конференция пройдет в павильоне 18Г в Экспоцентре.'}
+24-08-2021 03:19,394 DEBUG User got {'name': 'Регистрация', 'tokens': ('регист', 'добав', '3'), 'scenario': 'registration', 'answer': None}
+24-08-2021 03:19,394 DEBUG User got {'name': 'Благодарность', 'tokens': ('спс', 'спасибо', '4'), 'scenario': None, 'answer': 'Пожалуйста!'}
+24-08-2021 03:19,623 INFO Мы пока не умеем обрабатывать события такого типа. VkBotEventType.MESSAGE_REPLY
+24-08-2021 03:19,828 DEBUG User got {'name': 'Дата проведения', 'tokens': ('когда', 'сколько', 'дата', 'дату', '1'), 'scenario': None, 'answer': 'Конференция проводится 15 апреля, регистрация начнется в 10 утра.'}
+24-08-2021 03:19,829 DEBUG User got {'name': 'Место проведения', 'tokens': ('где', 'место', 'локация', 'адрес', 'метро', '2'), 'scenario': None, 'answer': 'Конференция пройдет в павильоне 18Г в Экспоцентре.'}
+24-08-2021 03:19,054 INFO Мы пока не умеем обрабатывать события такого типа. VkBotEventType.MESSAGE_REPLY
+24-08-2021 03:21,611 INFO Мы пока не умеем обрабатывать события такого типа. VkBotEventType.MESSAGE_TYPING_STATE
+24-08-2021 03:21,514 ERROR Ошибка в обработке события. <class 'pony.orm.dbapiprovider.ProgrammingError'>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pony/orm/dbapiprovider.py", line 52, in wrap_dbapi_exceptions
+    return func(provider, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pony/orm/dbproviders/postgres.py", line 261, in execute
+    else: cursor.execute(sql, arguments)
+psycopg2.errors.UndefinedTable: relation "userstate" does not exist
+LINE 2: FROM "userstate"
+             ^
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/valeriichirkov/PycharmProjects/python_base/chatbot/bot.py", line 56, in run
+    self.on_event(event)
+  File "<string>", line 2, in on_event
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pony/orm/core.py", line 533, in new_func
+    result = func(*args, **kwargs)
+  File "/Users/valeriichirkov/PycharmProjects/python_base/chatbot/bot.py", line 73, in on_event
+    state = UserState.get(user_id=str(user_id))
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pony/orm/core.py", line 4014, in get
+    try: return entity._find_one_(kwargs)  # can throw MultipleObjectsFoundError
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pony/orm/core.py", line 4121, in _find_one_
+    if obj is None: obj = entity._find_in_db_(avdict, unique, for_update, nowait, skip_locked)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pony/orm/core.py", line 4180, in _find_in_db_
+    cursor = database._exec_sql(sql, arguments)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pony/orm/core.py", line 954, in _exec_sql
+    connection = cache.reconnect(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pony/orm/core.py", line 1789, in reconnect
+    if not provider.should_reconnect(exc): reraise(*sys.exc_info())
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pony/utils/utils.py", line 95, in reraise
+    try: raise exc.with_traceback(tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pony/orm/core.py", line 952, in _exec_sql
+    try: new_id = provider.execute(cursor, sql, arguments, returning_id)
+  File "<string>", line 2, in execute
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pony/orm/dbapiprovider.py", line 64, in wrap_dbapi_exceptions
+    raise ProgrammingError(e)
+pony.orm.dbapiprovider.ProgrammingError: relation "userstate" does not exist
+LINE 2: FROM "userstate"
+             ^
+
+24-08-2021 03:21,513 INFO Мы пока не умеем обрабатывать события такого типа. VkBotEventType.MESSAGE_TYPING_STATE
+24-08-2021 03:21,471 DEBUG User got {'name': 'Дата проведения', 'tokens': ('когда', 'сколько', 'дата', 'дату', '1'), 'scenario': None, 'answer': 'Конференция проводится 15 апреля, регистрация начнется в 10 утра.'}
+24-08-2021 03:21,471 DEBUG User got {'name': 'Место проведения', 'tokens': ('где', 'место', 'локация', 'адрес', 'метро', '2'), 'scenario': None, 'answer': 'Конференция пройдет в павильоне 18Г в Экспоцентре.'}
+24-08-2021 03:21,471 DEBUG User got {'name': 'Регистрация', 'tokens': ('регист', 'добав', '3'), 'scenario': 'registration', 'answer': None}
+24-08-2021 03:21,471 DEBUG User got {'name': 'Благодарность', 'tokens': ('спс', 'спасибо', '4'), 'scenario': None, 'answer': 'Пожалуйста!'}
+24-08-2021 03:21,772 INFO Мы пока не умеем обрабатывать события такого типа. VkBotEventType.MESSAGE_REPLY
+24-08-2021 03:21,260 DEBUG User got {'name': 'Дата проведения', 'tokens': ('когда', 'сколько', 'дата', 'дату', '1'), 'scenario': None, 'answer': 'Конференция проводится 15 апреля, регистрация начнется в 10 утра.'}
+24-08-2021 03:21,260 DEBUG User got {'name': 'Место проведения', 'tokens': ('где', 'место', 'локация', 'адрес', 'метро', '2'), 'scenario': None, 'answer': 'Конференция пройдет в павильоне 18Г в Экспоцентре.'}
+24-08-2021 03:21,260 DEBUG User got {'name': 'Регистрация', 'tokens': ('регист', 'добав', '3'), 'scenario': 'registration', 'answer': None}
+24-08-2021 03:21,261 DEBUG User got {'name': 'Благодарность', 'tokens': ('спс', 'спасибо', '4'), 'scenario': None, 'answer': 'Пожалуйста!'}
+24-08-2021 03:21,442 INFO Мы пока не умеем обрабатывать события такого типа. VkBotEventType.MESSAGE_REPLY
+24-08-2021 03:22,161 DEBUG User got {'name': 'Дата проведения', 'tokens': ('когда', 'сколько', 'дата', 'дату', '1'), 'scenario': None, 'answer': 'Конференция проводится 15 апреля, регистрация начнется в 10 утра.'}
+24-08-2021 03:22,162 DEBUG User got {'name': 'Место проведения', 'tokens': ('где', 'место', 'локация', 'адрес', 'метро', '2'), 'scenario': None, 'answer': 'Конференция пройдет в павильоне 18Г в Экспоцентре.'}
+24-08-2021 03:22,162 DEBUG User got {'name': 'Регистрация', 'tokens': ('регист', 'добав', '3'), 'scenario': 'registration', 'answer': None}
+24-08-2021 03:22,162 DEBUG User got {'name': 'Благодарность', 'tokens': ('спс', 'спасибо', '4'), 'scenario': None, 'answer': 'Пожалуйста!'}
+24-08-2021 03:22,343 INFO Мы пока не умеем обрабатывать события такого типа. VkBotEventType.MESSAGE_REPLY
+24-08-2021 03:22,099 INFO Мы пока не умеем обрабатывать события такого типа. VkBotEventType.MESSAGE_TYPING_STATE
+24-08-2021 03:22,943 ERROR Ошибка в обработке события. <class 'pony.orm.dbapiprovider.ProgrammingError'>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pony/orm/dbapiprovider.py", line 52, in wrap_dbapi_exceptions
+    return func(provider, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pony/orm/dbproviders/postgres.py", line 261, in execute
+    else: cursor.execute(sql, arguments)
+psycopg2.errors.UndefinedTable: relation "userstate" does not exist
+LINE 2: FROM "userstate"
+             ^
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/valeriichirkov/PycharmProjects/python_base/chatbot/bot.py", line 56, in run
+    self.on_event(event)
+  File "<string>", line 2, in on_event
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pony/orm/core.py", line 533, in new_func
+    result = func(*args, **kwargs)
+  File "/Users/valeriichirkov/PycharmProjects/python_base/chatbot/bot.py", line 73, in on_event
+    state = UserState.get(user_id=str(user_id))
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pony/orm/core.py", line 4014, in get
+    try: return entity._find_one_(kwargs)  # can throw MultipleObjectsFoundError
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pony/orm/core.py", line 4121, in _find_one_
+    if obj is None: obj = entity._find_in_db_(avdict, unique, for_update, nowait, skip_locked)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pony/orm/core.py", line 4180, in _find_in_db_
+    cursor = database._exec_sql(sql, arguments)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pony/orm/core.py", line 954, in _exec_sql
+    connection = cache.reconnect(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pony/orm/core.py", line 1789, in reconnect
+    if not provider.should_reconnect(exc): reraise(*sys.exc_info())
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pony/utils/utils.py", line 95, in reraise
+    try: raise exc.with_traceback(tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pony/orm/core.py", line 952, in _exec_sql
+    try: new_id = provider.execute(cursor, sql, arguments, returning_id)
+  File "<string>", line 2, in execute
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pony/orm/dbapiprovider.py", line 64, in wrap_dbapi_exceptions
+    raise ProgrammingError(e)
+pony.orm.dbapiprovider.ProgrammingError: relation "userstate" does not exist
+LINE 2: FROM "userstate"
+             ^
+
+24-08-2021 03:23,449 INFO Мы пока не умеем обрабатывать события такого типа. VkBotEventType.MESSAGE_TYPING_STATE
+24-08-2021 03:23,069 DEBUG User got {'name': 'Дата проведения', 'tokens': ('когда', 'сколько', 'дата', 'дату', '1'), 'scenario': None, 'answer': 'Конференция проводится 15 апреля, регистрация начнется в 10 утра.'}
+24-08-2021 03:23,069 DEBUG User got {'name': 'Место проведения', 'tokens': ('где', 'место', 'локация', 'адрес', 'метро', '2'), 'scenario': None, 'answer': 'Конференция пройдет в павильоне 18Г в Экспоцентре.'}
+24-08-2021 03:23,069 DEBUG User got {'name': 'Регистрация', 'tokens': ('регист', 'добав', '3'), 'scenario': 'registration', 'answer': None}
+24-08-2021 03:23,069 DEBUG User got {'name': 'Благодарность', 'tokens': ('спс', 'спасибо', '4'), 'scenario': None, 'answer': 'Пожалуйста!'}
+24-08-2021 03:23,302 INFO Мы пока не умеем обрабатывать события такого типа. VkBotEventType.MESSAGE_REPLY
+24-08-2021 03:23,014 INFO Мы пока не умеем обрабатывать события такого типа. VkBotEventType.MESSAGE_TYPING_STATE
+24-08-2021 03:23,081 DEBUG User got {'name': 'Дата проведения', 'tokens': ('когда', 'сколько', 'дата', 'дату', '1'), 'scenario': None, 'answer': 'Конференция проводится 15 апреля, регистрация начнется в 10 утра.'}
+24-08-2021 03:23,082 DEBUG User got {'name': 'Место проведения', 'tokens': ('где', 'место', 'локация', 'адрес', 'метро', '2'), 'scenario': None, 'answer': 'Конференция пройдет в павильоне 18Г в Экспоцентре.'}
+24-08-2021 03:23,082 DEBUG User got {'name': 'Регистрация', 'tokens': ('регист', 'добав', '3'), 'scenario': 'registration', 'answer': None}
+24-08-2021 03:23,296 INFO Мы пока не умеем обрабатывать события такого типа. VkBotEventType.MESSAGE_REPLY
+24-08-2021 03:27,153 INFO Мы пока не умеем обрабатывать события такого типа. VkBotEventType.MESSAGE_TYPING_STATE
+24-08-2021 03:27,148 INFO Мы пока не умеем обрабатывать события такого типа. VkBotEventType.MESSAGE_REPLY
+24-08-2021 03:27,458 INFO Мы пока не умеем обрабатывать события такого типа. VkBotEventType.MESSAGE_TYPING_STATE
+24-08-2021 03:27,889 INFO Зарегистрирован привет valerii_chirkov@bk.ru
+24-08-2021 03:27,091 INFO Мы пока не умеем обрабатывать события такого типа. VkBotEventType.MESSAGE_REPLY
+24-08-2021 03:28,845 INFO Мы пока не умеем обрабатывать события такого типа. VkBotEventType.MESSAGE_TYPING_STATE
+24-08-2021 03:28,744 DEBUG User got {'name': 'Дата проведения', 'tokens': ('когда', 'сколько', 'дата', 'дату', '1'), 'scenario': None, 'answer': 'Конференция проводится 15 апреля, регистрация начнется в 10 утра.'}
+24-08-2021 03:28,745 DEBUG User got {'name': 'Место проведения', 'tokens': ('где', 'место', 'локация', 'адрес', 'метро', '2'), 'scenario': None, 'answer': 'Конференция пройдет в павильоне 18Г в Экспоцентре.'}
+24-08-2021 03:28,745 DEBUG User got {'name': 'Регистрация', 'tokens': ('регист', 'добав', '3'), 'scenario': 'registration', 'answer': None}
+24-08-2021 03:28,953 INFO Мы пока не умеем обрабатывать события такого типа. VkBotEventType.MESSAGE_REPLY
+24-08-2021 03:28,881 INFO Мы пока не умеем обрабатывать события такого типа. VkBotEventType.MESSAGE_TYPING_STATE
+24-08-2021 03:28,677 INFO Мы пока не умеем обрабатывать события такого типа. VkBotEventType.MESSAGE_REPLY
+24-08-2021 03:29,946 INFO Мы пока не умеем обрабатывать события такого типа. VkBotEventType.MESSAGE_TYPING_STATE
+24-08-2021 03:29,949 INFO Мы пока не умеем обрабатывать события такого типа. VkBotEventType.MESSAGE_TYPING_STATE
+24-08-2021 03:29,314 INFO Зарегистрирован Valerii valera@mail.ru
+24-08-2021 03:29,508 INFO Мы пока не умеем обрабатывать события такого типа. VkBotEventType.MESSAGE_REPLY
+24-08-2021 20:23,352 INFO Мы пока не умеем обрабатывать события такого типа. VkBotEventType.MESSAGE_TYPING_STATE
+24-08-2021 20:23,372 DEBUG User got {'name': 'Дата проведения', 'tokens': ('когда', 'сколько', 'дата', 'дату', '1'), 'scenario': None, 'answer': 'Конференция проводится 15 апреля, регистрация начнется в 10 утра.'}
+24-08-2021 20:23,372 DEBUG User got {'name': 'Место проведения', 'tokens': ('где', 'место', 'локация', 'адрес', 'метро', '2'), 'scenario': None, 'answer': 'Конференция пройдет в павильоне 18Г в Экспоцентре.'}
+24-08-2021 20:23,372 DEBUG User got {'name': 'Регистрация', 'tokens': ('регист', 'добав', '3'), 'scenario': 'registration', 'answer': None}
+24-08-2021 20:23,373 DEBUG User got {'name': 'Благодарность', 'tokens': ('спс', 'спасибо', '4'), 'scenario': None, 'answer': 'Пожалуйста!'}
+24-08-2021 20:23,591 INFO Мы пока не умеем обрабатывать события такого типа. VkBotEventType.MESSAGE_REPLY
+24-08-2021 20:31,350 INFO Мы пока не умеем обрабатывать события такого типа. VkBotEventType.MESSAGE_TYPING_STATE
+24-08-2021 20:31,622 DEBUG User got {'name': 'Дата проведения', 'tokens': ('когда', 'сколько', 'дата', 'дату', '1'), 'scenario': None, 'answer': 'Конференция проводится 15 апреля, регистрация начнется в 10 утра.'}
+24-08-2021 20:31,623 DEBUG User got {'name': 'Место проведения', 'tokens': ('где', 'место', 'локация', 'адрес', 'метро', '2'), 'scenario': None, 'answer': 'Конференция пройдет в павильоне 18Г в Экспоцентре.'}
+24-08-2021 20:31,623 DEBUG User got {'name': 'Регистрация', 'tokens': ('регист', 'добав', '3'), 'scenario': 'registration', 'answer': None}
+24-08-2021 20:31,866 INFO Мы пока не умеем обрабатывать события такого типа. VkBotEventType.MESSAGE_REPLY
+24-08-2021 20:31,690 INFO Мы пока не умеем обрабатывать события такого типа. VkBotEventType.MESSAGE_REPLY
+24-08-2021 20:31,427 INFO Мы пока не умеем обрабатывать события такого типа. VkBotEventType.MESSAGE_TYPING_STATE
+24-08-2021 20:34,654 INFO Мы пока не умеем обрабатывать события такого типа. VkBotEventType.MESSAGE_TYPING_STATE
+24-08-2021 20:34,797 INFO Мы пока не умеем обрабатывать события такого типа. VkBotEventType.MESSAGE_TYPING_STATE
+24-08-2021 20:34,527 INFO Мы пока не умеем обрабатывать события такого типа. VkBotEventType.MESSAGE_REPLY
+24-08-2021 20:34,387 INFO Мы пока не умеем обрабатывать события такого типа. VkBotEventType.MESSAGE_TYPING_STATE
+24-08-2021 20:34,299 INFO Мы пока не умеем обрабатывать события такого типа. VkBotEventType.MESSAGE_REPLY
+24-08-2021 20:35,399 INFO Мы пока не умеем обрабатывать события такого типа. VkBotEventType.MESSAGE_TYPING_STATE
+24-08-2021 20:35,451 INFO Мы пока не умеем обрабатывать события такого типа. VkBotEventType.MESSAGE_REPLY
+24-08-2021 20:35,941 INFO Мы пока не умеем обрабатывать события такого типа. VkBotEventType.MESSAGE_TYPING_STATE
+24-08-2021 20:35,978 INFO Мы пока не умеем обрабатывать события такого типа. VkBotEventType.MESSAGE_REPLY
+24-08-2021 20:35,820 INFO Мы пока не умеем обрабатывать события такого типа. VkBotEventType.MESSAGE_TYPING_STATE
+24-08-2021 20:35,646 INFO Мы пока не умеем обрабатывать события такого типа. VkBotEventType.MESSAGE_REPLY
+24-08-2021 20:36,429 INFO Мы пока не умеем обрабатывать события такого типа. VkBotEventType.MESSAGE_TYPING_STATE
+24-08-2021 20:43,605 INFO Мы пока не умеем обрабатывать события такого типа. VkBotEventType.MESSAGE_TYPING_STATE
+24-08-2021 20:43,893 INFO Мы пока не умеем обрабатывать события такого типа. VkBotEventType.MESSAGE_REPLY
+24-08-2021 20:43,257 INFO Мы пока не умеем обрабатывать события такого типа. VkBotEventType.MESSAGE_TYPING_STATE
+24-08-2021 20:43,010 INFO Зарегистрирован валера email@email.com
+24-08-2021 20:43,170 INFO Мы пока не умеем обрабатывать события такого типа. VkBotEventType.MESSAGE_REPLY
+24-08-2021 20:43,170 INFO Мы пока не умеем обрабатывать события такого типа. VkBotEventType.MESSAGE_REPLY
